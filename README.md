@@ -1,3 +1,3 @@
 # Confetti
 
-Confetti is a group texting app.
+Private group text messaging.
