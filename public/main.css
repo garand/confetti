@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  font-family: 'memoriam-outline-pro', sans-serif;
+}
+
+body {
+  background: #00ccff;
+  color: #fff;
+  text-align: center;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+h1 {
+ font-size: 10vw;
+ text-shadow: 0 0 30px rgba(0,0,0,.15); 
+}
