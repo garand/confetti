@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1024" height="1024"></rect>
+        <path id="path-3" d="M499.095661,104.731154 C406.440047,104.731154 327.020949,147.382151 294.665021,194.445319 L313.969473,203.323 C346.725206,164.407144 396.779582,141.08194 432.163779,141.083587 C451.963792,141.084508 471.812475,156.424402 471.812475,182.565712 C471.812475,322.284495 359.376878,619.484563 359.376878,759.203346 C359.376878,857.741856 428.500907,919.512265 522.627245,919.512265 C619.695031,919.512265 709.409196,840.093167 729.999333,684.19642 L708.18486,684.19645 C689.993826,832.193596 601.456341,883.605475 567.629689,883.605475 C552.269973,883.605475 528.510141,876.861268 528.510141,822.444479 C528.510141,703.315833 654.992407,381.227271 654.992407,251.803557 C654.992407,144.440703 581.456206,104.731154 499.095661,104.731154 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-12" sketch:type="MSArtboardGroup">
+            <mask id="mask-2" sketch:name="Rectangle 3" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Rectangle-3">
+                <use sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <use xlink:href="#path-1"></use>
+            </g>
+            <g id="i">
+                <use stroke="#FFFFFF" stroke-width="11" sketch:type="MSShapeGroup" mask="url(#mask-2)" transform="translate(512.332177, 512.121709) rotate(-315.000000) translate(-512.332177, -512.121709) " xlink:href="#path-3"></use>
+                <use stroke="none" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -5,7 +5,8 @@ body {
 }
 
 body {
-  background: #00ccff;
+  background: linear-gradient(0deg, #00ccff, #ffccff);
+  margin: 0;
   color: #fff;
   text-align: center;
   display: -ms-flexbox;
@@ -18,9 +19,19 @@ body {
   -ms-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 
 h1 {
- font-size: 10vw;
- text-shadow: 0 0 30px rgba(0,0,0,.15); 
+  font-size: 10vw;
+  margin: 0;
+  line-height: 1.6;
+}
+
+img {
+  width: 14vw;
+  border-radius: 3.5vw;
+  border: 2px solid #fff;
 }
