@@ -4,6 +4,9 @@
   <title>Confetti</title>
   <meta name="viewport" content="width=device-width,initial-scale=.75,user-scalable=no">
   <link rel="stylesheet" type="text/css" href="/assets/style/main.css">
+  <link rel="apple-touch-icon" href="/assets/images/app_icon_180.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/app_icon_120.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/app_icon_180.png">
 </head>
 <body>
   <h1 class="logo">Confetti</h1>

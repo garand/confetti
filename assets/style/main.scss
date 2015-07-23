@@ -55,7 +55,8 @@ body {
   outline: 0 solid rgba($light,.1);
   outline-offset: 1px;
 
-  &:hover {
+  &:hover,
+  &:focus {
     outline-width: 4px;
   }
 

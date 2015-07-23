@@ -1,0 +1,132 @@
+@import 'vendor/normalize';
+@import 'config/type';
+@import 'config/color';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  background: $light;
+  color: $secondary;
+
+  &.login {
+    height: 100%;
+    background: $secondary;
+    color: $light;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+header {
+  background: $secondary;
+  color: $light;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-weight: 300;
+  font-size: 83px;
+  letter-spacing: -.0125em;
+  line-height: 1.21em;
+  border-right: 0.12048192771em solid $primary;
+  display: inline-block;
+  padding-right: 0.39759036144em;
+  margin: 0;
+
+  header & { font-size: 24px; }
+}
+
+
+.button,
+button,
+input[type='submit'] {
+  color: $light;
+  background: $primary;
+  text-decoration: none;
+  display: inline-block;
+  padding: .6em 1.25em;
+  font-weight: 600;
+  line-height: 21px;
+  transition: outline-width 120ms;
+  outline: solid rgba($light,.1);
+  outline-width: 0;
+  outline-offset: 1px;
+  border: 0;
+
+  &:hover,
+  &:focus {
+    outline-width: 4px;
+  }
+}
+
+.login {
+
+  form {
+    max-width: 18em;
+    padding: 0 .5em;
+
+    input[type='submit'] {
+      float: right;
+    }
+  }
+
+  .logo {
+    margin-bottom: .4em;
+    font-size: 50px;
+  }
+
+  label {
+    color: rgba($light,.4);
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: .7em;
+    text-align: left;
+    display: block;
+    line-height: 1.8;
+  }
+
+  input[type='text'],
+  input[type='password'] {
+    border: 0;
+    font-size: 1.2em;
+    padding: .6em 1em;
+    color: $secondary;
+    margin-bottom: .7em;
+    transition: outline-width 120ms;
+    outline: solid rgba($primary,1);
+    outline-width: 0;
+    outline-offset: 1px;
+    border: 0;
+    width: 100%;
+
+    &:focus {
+      outline-width: 2px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba($light,.4);
+    font-size: .8em;
+    line-height: 1.2rem;
+    padding: .6rem 0;
+    display: inline-block;
+    transition: color 120ms;
+
+    &:hover {
+      color: $light;
+    }
+  }
+}
