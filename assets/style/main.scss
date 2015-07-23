@@ -24,6 +24,37 @@ body {
   justify-content: center;
 }
 
+@keyframes logo {
+  0% {
+    opacity: 0;
+    transform: translate(0,30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0,0)
+  }
+}
+
+@keyframes description {
+  0% {
+    opacity: 0;
+    transform: translate(0,-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0,0)
+  }
+}
+
+@keyframes button {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .logo {
   font-weight: 300;
   font-size: 83px;
@@ -33,6 +64,10 @@ body {
   display: inline-block;
   padding-right: 0.39759036144em;
   margin: 0;
+  animation: logo 2s;
+  animation-delay: 500ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
 .description {
@@ -41,6 +76,11 @@ body {
   font-size: 20px;
   margin: 5px 0 0 0;
   margin-bottom: 60px;
+  -webkit-font-smoothing: antialiased;
+  animation: description 2.5s;
+  animation-delay: 1.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
 .button {
@@ -51,9 +91,14 @@ body {
   padding: .6em 1.25em;
   font-weight: 600;
   line-height: 21px;
-  transition: outline-width 120ms;
+  transition: outline-width 120ms ease-out;
   outline: 0 solid rgba($light,.1);
   outline-offset: 1px;
+  -webkit-font-smoothing: antialiased;
+  animation: button 1.5s;
+  animation-delay: 3.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 
   &:hover,
   &:focus {
