@@ -11,7 +11,10 @@
 <body>
   <h1 class="logo">Confetti</h1>
   <h3 class="description">Private group messaging</h3>
-  <a class="button" href="http://github.com/garand/confetti">GitHub</a>
+  <div class="buttons">
+    <a class="button" href="http://github.com/garand/confetti">GitHub</a>
+    <a class="button secondary" href="http://app.confetti.io">Login</a>
+  </div>
   <script type="text/javascript">
     var _gauges = _gauges || [];
     (function() {
